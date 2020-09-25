@@ -1,0 +1,22 @@
+{
+  "name": "grapespectre",
+  "version": "1.0.34",
+  "description": "grapespectre",
+  "main": "dist/grapespectre.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juancarlospaco/grapespectre.git"
+  },
+  "scripts": {
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build"
+  },
+  "keywords": [
+    "grapesjs",
+    "spectrecss"
+  ],
+  "devDependencies": {
+    "grapesjs-cli": "^1.0.12"
+  },
+  "license": "MIT"
+}

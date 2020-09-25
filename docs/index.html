@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Spectre CSS/HTML Designer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+    <meta name="description" content="Spectre CSS/HTML Designer">
+    <meta name="author" content="Juan Carlos">
+    <link rel="shortcut icon" href="favicon.webp">
+    <link rel="icon" href="favicon.webp">
+    <link href="grapes.min.css" rel="stylesheet" async defer >
+    <script src="grapes.min.js"></script>
+    <script src="grapesjs-rte-extensions.min.js"></script>
+    <script src="grapesjs-script-editor.min.js"></script>
+    <script src="grapesjs-component-code-editor.min.js"></script>
+    <script src="grapesjs-plugin-export.min.js"></script>
+    <script src="grapesjs-indexeddb-ui.min.js"></script>
+    <script src="grapesjs-blocks-flexbox.min.js"></script>
+    <script src="grapesjs-style-bg.min.js"></script>
+    <script src="grapespectre.min.js"></script>
+    <style>
+      body, html {height:100%; margin:0}
+      div.gjs-cm-editor-c { width: 99% }
+      div.gjs-cm-editor#gjs-cm-htmlmixed { border: 0 }
+      div.gjs-cm-editor#gjs-cm-css { display: none }
+      div.gjs-cm-editor#gjs-cm-htmlmixed {padding: 0}
+      @keyframes blink { from { opacity: 1 } to { opacity: 0 } }
+      span.gjs-pn-btn.fa.fa-code {
+        color: blue;
+        background: limegreen;
+        animation-iteration-count: 9;
+        animation-duration: 1s;
+        animation-name: blink;
+        animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+      }
+    </style>
+  </head>
+  <body lang="en">
+    <script>
+      window.editor = grapesjs.init({
+        height:         '100%',
+        container:      'body',
+        showOffsets:    true,
+        fromElement:    true,
+        noticeOnUnload: false,
+        storageManager: true,
+        storageManager: {
+          id: 'some-id',//gjs-
+          type: 'indexeddb',
+        },
+        plugins: ['grapespectre', 'grapesjs-rte-extensions', 'grapesjs-script-editor', 'grapesjs-component-code-editor', 'grapesjs-indexeddb-ui', 'grapesjs-plugin-export', 'gjs-blocks-flexbox', 'grapesjs-style-bg'],
+        pluginsOpts: {
+          'grapesjs-script-editor': {
+            modalTitle: 'JavaScript',
+            buttonLabel: ' O K ! ',
+            starter: 'console.log(42);\n'
+           },
+          'grapesjs-rte-extensions': {
+            fonts: {
+              hilite: false,
+            },
+            format: {
+              heading1: true,
+              heading2: true,
+              heading3: true,
+              heading4: true,
+              heading5: true,
+              heading6: true,
+              quote: true,
+              paragraph: true,
+              clearFormatting: true,
+            },
+            subscriptSuperscript: true,
+            indentOutdent: true,
+            list: true,
+            align: true,
+            actions: true,
+            undoredo: true,
+            extra: true,
+            darkColorPicker: true,
+            maxWidth: '666px'
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
