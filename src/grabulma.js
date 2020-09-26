@@ -1827,8 +1827,8 @@ export default (editor, opts = {}) => {
     label:    'Select Simple',
     content: `
     <div class="field">
-      <div class="control has-icons-left is-small">
-        <div class="select is-rounded">
+      <div class="control has-icons-left">
+        <div class="select is-rounded is-small">
           <select>
             <option selected >Option 0</option>
             <option>Option 1</option>
@@ -2228,6 +2228,26 @@ export default (editor, opts = {}) => {
       </div>
       <div class="media-right">
         <button class="delete"></button>
+      </div>
+    </article>`,
+    category: 'Bulma➡️MediaObjects',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/layout/media-object';
+      el.appendChild(a);
+    },
+  });
+
+  plugin('bulma_mediaobj_empty', {
+    label:    'MediaObject Empty',
+    content: `
+    <article class="media">
+      <div class="media-content">
+        text
       </div>
     </article>`,
     category: 'Bulma➡️MediaObjects',
