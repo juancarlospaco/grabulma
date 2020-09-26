@@ -1,6 +1,6 @@
 {
   "name": "grabulma",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "description": "grabulma",
   "main": "dist/grabulma.min.js",
   "repository": {

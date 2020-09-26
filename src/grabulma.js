@@ -1734,16 +1734,518 @@ export default (editor, opts = {}) => {
   });
 
 
+  /* Bulma Files *********************************************************/
 
 
+  plugin('bulma_files_small', {
+    label:    'Files small',
+    content: `
+    <div class="file has-name is-light is-small">
+      <label class="file-label">
+        <input class="file-input" type="file" name="resume">
+        <span class="file-cta">
+          <span class="file-icon">
+            <i class="fas fa-upload"></i>
+          </span>
+          <span class="file-label">
+            Choose a file…
+          </span>
+        </span>
+        <span class="file-name">
+          file.ext
+        </span>
+      </label>
+    </div>`,
+    category: 'Bulma➡️Files',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/form/file';
+      el.appendChild(a);
+    },
+  });
+
+  plugin('bulma_files_centered', {
+    label:    'Files big centered',
+    content: `
+    <div class="file has-name is-boxed is-light is-fullwidth is-large is-centered">
+      <label class="file-label">
+        <input class="file-input" type="file" name="resume">
+        <span class="file-cta">
+          <span class="file-icon">
+            <i class="fas fa-upload"></i>
+          </span>
+          <span class="file-label">
+            Choose a file…
+          </span>
+        </span>
+        <span class="file-name">
+          file.ext
+        </span>
+      </label>
+    </div>`,
+    category: 'Bulma➡️Files',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/form/file';
+      el.appendChild(a);
+    },
+  });
 
 
+  /* Bulma Selects *********************************************************/
 
 
+  plugin('bulma_selects_multiple', {
+    label:    'Select Multiple Choice',
+    content: `
+    <div class="select is-multiple is-small">
+      <select multiple size="4">
+        <option value="Option 0">Option 0</option>
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+      </select>
+    </div>`,
+    category: 'Bulma➡️Selects',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/form/select';
+      el.appendChild(a);
+    },
+  });
+
+  plugin('bulma_selects_simple', {
+    label:    'Select Simple',
+    content: `
+    <div class="field">
+      <div class="control has-icons-left is-small">
+        <div class="select is-rounded">
+          <select>
+            <option selected >Option 0</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+          </select>
+        </div>
+        <div class="icon is-small is-left">
+          <i class="fas fa-globe"></i>
+        </div>
+      </div>
+    </div>`,
+    category: 'Bulma➡️Selects',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/form/select';
+      el.appendChild(a);
+    },
+  });
 
 
+  /* Bulma Tiles *********************************************************/
 
 
+  plugin('bulma_tiles_0', {
+    label:    'Tiles 0',
+    content: `
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical is-8">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification is-primary">
+              <p class="title">Vertical...</p>
+              <p class="subtitle">Top tile</p>
+            </article>
+            <article class="tile is-child notification is-warning">
+              <p class="title">...tiles</p>
+              <p class="subtitle">Bottom tile</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-info">
+              <p class="title">Middle tile</p>
+              <p class="subtitle">With an image</p>
+              <figure class="image is-4by3">
+                <img src="https://source.unsplash.com/640x480/?kitten">
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-danger">
+            <p class="title">Wide tile</p>
+            <p class="subtitle">Aligned with the right tile</p>
+            <div class="content">
+              text
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-success">
+          <div class="content">
+            <p class="title">Tall tile</p>
+            <p class="subtitle">With even more content</p>
+            <div class="content">
+              text
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>`,
+    category: 'Bulma➡️Tiles',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/layout/tiles';
+      el.appendChild(a);
+    },
+  });
+
+  plugin('bulma_tiles_1', {
+    label:    'Tiles 1',
+    content: `
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">One</p>
+          <p class="subtitle">Subtitle</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Two</p>
+          <p class="subtitle">Subtitle</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Three</p>
+          <p class="subtitle">Subtitle</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Four</p>
+          <p class="subtitle">Subtitle</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical is-9">
+        <div class="tile">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Five</p>
+              <p class="subtitle">Subtitle</p>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+              </div>
+            </article>
+          </div>
+          <div class="tile is-8 is-vertical">
+            <div class="tile">
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Six</p>
+                  <p class="subtitle">Subtitle</p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Seven</p>
+                  <p class="subtitle">Subtitle</p>
+                </article>
+              </div>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <p class="title">Eight</p>
+                <p class="subtitle">Subtitle</p>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="tile">
+          <div class="tile is-8 is-parent">
+            <article class="tile is-child box">
+              <p class="title">Nine</p>
+              <p class="subtitle">Subtitle</p>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              </div>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Ten</p>
+              <p class="subtitle">Subtitle</p>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <div class="content">
+            <p class="title">Eleven</p>
+            <p class="subtitle">Subtitle</p>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+              <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Twelve</p>
+          <p class="subtitle">Subtitle</p>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
+          </div>
+        </article>
+      </div>
+      <div class="tile is-parent is-6">
+        <article class="tile is-child box">
+          <p class="title">Thirteen</p>
+          <p class="subtitle">Subtitle</p>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          </div>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Fourteen</p>
+          <p class="subtitle">Subtitle</p>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
+          </div>
+        </article>
+      </div>
+    </div>`,
+    category: 'Bulma➡️Tiles',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/layout/tiles';
+      el.appendChild(a);
+    },
+  });
+
+
+  /* Bulma Footers *********************************************************/
+
+
+  plugin('bulma_footers_simple', {
+    label:    'Footer Simple',
+    content: `
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p> text </p>
+      </div>
+    </footer>`,
+    category: 'Bulma➡️Footers',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/layout/footer';
+      el.appendChild(a);
+    },
+  });
+
+
+  /* Bulma Heros *********************************************************/
+
+
+  plugin('bulma_heros_gradient', {
+    label:    'Hero Gradient',
+    content: `
+    <section class="hero is-medium is-primary is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            title
+          </h1>
+          <h2 class="subtitle">
+            subtitle
+          </h2>
+        </div>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Heros',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/layout/hero';
+      el.appendChild(a);
+    },
+  });
+
+  plugin('bulma_heros_big', {
+    label:    'Hero Big Full',
+    content: `
+    <section class="hero is-primary is-medium">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="https://bulma.io/images/bulma-type-white.png" alt="">
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active">
+                  Home
+                </a>
+                <a class="navbar-item">
+                  Examples
+                </a>
+                <a class="navbar-item">
+                  Documentation
+                </a>
+                <span class="navbar-item">
+                  <a class="button is-primary is-inverted">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Download</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            Title
+          </h1>
+          <h2 class="subtitle">
+            Subtitle
+          </h2>
+        </div>
+      </div>
+
+      <!-- Hero footer: will stick at the bottom -->
+      <div class="hero-foot">
+        <nav class="tabs">
+          <div class="container">
+            <ul>
+              <li class="is-active"><a>Overview</a></li>
+              <li><a>Modifiers</a></li>
+              <li><a>Grid</a></li>
+              <li><a>Elements</a></li>
+              <li><a>Components</a></li>
+              <li><a>Layout</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Heros',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/layout/hero';
+      el.appendChild(a);
+    },
+  });
+
+
+  /* Bulma Media Objects *********************************************************/
+
+
+  plugin('bulma_mediaobj_simple', {
+    label:    'MediaObject Simple',
+    content: `
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-64x64">
+          <img src="https://source.unsplash.com/128x128/?kitten">
+        </p>
+      </figure>
+      <div class="media-content">
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+          </p>
+        </div>
+        <nav class="level is-mobile">
+          <div class="level-left">
+            <a class="level-item">
+              <span class="icon is-small"><i class="fas fa-reply"></i></span>
+            </a>
+            <a class="level-item">
+              <span class="icon is-small"><i class="fas fa-retweet"></i></span>
+            </a>
+            <a class="level-item">
+              <span class="icon is-small"><i class="fas fa-heart"></i></span>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div class="media-right">
+        <button class="delete"></button>
+      </div>
+    </article>`,
+    category: 'Bulma➡️MediaObjects',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/layout/media-object';
+      el.appendChild(a);
+    },
+  });
 
 
 }
