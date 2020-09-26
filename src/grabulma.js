@@ -2192,6 +2192,25 @@ export default (editor, opts = {}) => {
     },
   });
 
+  plugin('bulma_footers_empty', {
+    label:    'Footer Empty',
+    content: `
+    <footer class="footer">
+      <div class="content">
+      </div>
+    </footer>`,
+    category: 'Bulma➡️Footers',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/layout/footer';
+      el.appendChild(a);
+    },
+  });
+
 
   /* Bulma Heros *********************************************************/
 
