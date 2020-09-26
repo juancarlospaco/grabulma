@@ -14,7 +14,7 @@ export default (editor, options = {}) => {
 
     const openBl = editor.Panels.getButton('views', 'open-blocks');
     openBl && openBl.set('active', 1);
-    //editor.Blocks.getCategories().filter(c => ['Spectre➡️Templates', 'SVG➡️Patterns', 'Fonts', 'Nim lang➡️SCF', 'Unsplash➡️Images', 'Spectre➡️Icons', 'Spectre➡️Buttons', 'Spectre➡️Experimentals', 'Spectre➡️Utils', 'Spectre➡️Media'].includes(c.get('id'))).forEach(c => c.set('open', 0));
+    editor.Blocks.getCategories().filter(c => ['SVG➡️Patterns', 'Fonts', 'Nim lang➡️SCF', 'Unsplash➡️Images'].includes(c.get('id'))).forEach(c => c.set('open', 0));
 
   })
 
