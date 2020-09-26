@@ -887,7 +887,7 @@ export default (editor, opts = {}) => {
   plugin('bulma_modals_card', {
     label:    'Modal Card Big',
     content: `
-    <div class="modal">
+    <div class="modal is-active">
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
@@ -918,7 +918,7 @@ export default (editor, opts = {}) => {
   plugin('bulma_modals_image', {
     label:    'Modal Image Big',
     content: `
-    <div class="modal">
+    <div class="modal is-active">
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
@@ -1193,14 +1193,14 @@ export default (editor, opts = {}) => {
     <div class="card">
       <div class="card-image">
         <figure class="image is-4by3">
-          <img src="https://source.unsplash.com/999x666/?kitten" alt="" loading="lazy">
+          <img src="https://source.unsplash.com/99x99/?kitten" alt="" loading="lazy">
         </figure>
       </div>
       <div class="card-content">
         <div class="media">
           <div class="media-left">
             <figure class="image is-48x48">
-              <img src="https://source.unsplash.com/99x99/?kitten" alt="" loading="lazy">
+              <img src="https://source.unsplash.com/48x48/?kitten" alt="" loading="lazy">
             </figure>
           </div>
           <div class="media-content">
@@ -1380,22 +1380,19 @@ export default (editor, opts = {}) => {
       <div class="control">
         <div class="tags has-addons">
           <span class="tag is-dark">text</span>
-          <span class="tag is-info"></span>
-          <button class="delete is-small"></button>
+          <span class="tag is-info">text</span>
         </div>
       </div>
       <div class="control">
         <div class="tags has-addons">
           <span class="tag is-dark">text</span>
           <span class="tag is-success">text</span>
-          <button class="delete is-small"></button>
         </div>
       </div>
       <div class="control">
         <div class="tags has-addons">
           <span class="tag is-dark">text</span>
           <span class="tag is-primary">text</span>
-          <button class="delete is-small"></button>
         </div>
       </div>
     </div>`,
@@ -1619,7 +1616,7 @@ export default (editor, opts = {}) => {
       <article class="media">
         <div class="media-left">
           <figure class="image is-64x64">
-            <img src="https://source.unsplash.com/128x128/?kitten" alt="" loading="lazy">
+            <img src="https://source.unsplash.com/64x64/?kitten" alt="" loading="lazy">
           </figure>
         </div>
       </article>
@@ -1948,7 +1945,6 @@ export default (editor, opts = {}) => {
         </article>
       </div>
     </div>
-
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-9">
         <div class="tile">
@@ -2018,7 +2014,6 @@ export default (editor, opts = {}) => {
         </article>
       </div>
     </div>
-
     <div class="tile is-ancestor">
       <div class="tile is-parent">
         <article class="tile is-child box">
@@ -2136,13 +2131,13 @@ export default (editor, opts = {}) => {
             <div id="navbarMenuHeroA" class="navbar-menu">
               <div class="navbar-end">
                 <a class="navbar-item is-active">
-                  Home
+                  text
                 </a>
                 <a class="navbar-item">
-                  Examples
+                  text
                 </a>
                 <a class="navbar-item">
-                  Documentation
+                  text
                 </a>
                 <span class="navbar-item">
                   <a class="button is-primary is-inverted">
@@ -2175,12 +2170,12 @@ export default (editor, opts = {}) => {
         <nav class="tabs">
           <div class="container">
             <ul>
-              <li class="is-active"><a>Overview</a></li>
-              <li><a>Modifiers</a></li>
-              <li><a>Grid</a></li>
-              <li><a>Elements</a></li>
-              <li><a>Components</a></li>
-              <li><a>Layout</a></li>
+              <li class="is-active"><a>text</a></li>
+              <li><a>text</a></li>
+              <li><a>text</a></li>
+              <li><a>text</a></li>
+              <li><a>text</a></li>
+              <li><a>text</a></li>
             </ul>
           </div>
         </nav>
@@ -2208,7 +2203,7 @@ export default (editor, opts = {}) => {
     <article class="media">
       <figure class="media-left">
         <p class="image is-64x64">
-          <img src="https://source.unsplash.com/128x128/?kitten" alt="" loading="lazy">
+          <img src="https://source.unsplash.com/64x64/?kitten" alt="" loading="lazy">
         </p>
       </figure>
       <div class="media-content">
