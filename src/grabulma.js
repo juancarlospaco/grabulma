@@ -1187,8 +1187,8 @@ export default (editor, opts = {}) => {
   /* Bulma Cards *********************************************************/
 
 
-  plugin('bulma_cards_big', {
-    label:    'Cards Big',
+  plugin('bulma_cards_image', {
+    label:    'Cards Image',
     content: `
     <div class="card">
       <div class="card-image">
@@ -1225,8 +1225,8 @@ export default (editor, opts = {}) => {
     },
   });
 
-  plugin('bulma_cards_big', {
-    label:    'Cards Big',
+  plugin('bulma_cards_text', {
+    label:    'Cards Text',
     content: `
     <div class="card">
       <header class="card-header">
@@ -1440,7 +1440,7 @@ export default (editor, opts = {}) => {
   /* Bulma Tables *********************************************************/
 
 
-  plugin('bulma_tables_simple', {
+  plugin('bulma_tables_scrollable', {
     label:    'Table Scrollable Striped Hoverable',
     content: `
     <div class="table-container">
@@ -1485,7 +1485,7 @@ export default (editor, opts = {}) => {
     },
   });
 
-  plugin('bulma_tables_simple', {
+  plugin('bulma_tables_fullwidth', {
     label:    'Table Striped Hoverable Fullwidth',
     content: `
     <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
