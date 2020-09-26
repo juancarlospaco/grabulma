@@ -397,25 +397,25 @@ export default (editor, opts = {}) => {
         <li class="is-active">
           <a>
             <span class="icon is-small"><i class="fas fa-image"></i></span>
-            <span>Pictures</span>
+            <span>Tab 0</span>
           </a>
         </li>
         <li>
           <a>
             <span class="icon is-small"><i class="fas fa-music"></i></span>
-            <span>Music</span>
+            <span>Tab 1</span>
           </a>
         </li>
         <li>
           <a>
             <span class="icon is-small"><i class="fas fa-film"></i></span>
-            <span>Videos</span>
+            <span>Tab 2</span>
           </a>
         </li>
         <li>
           <a>
             <span class="icon is-small"><i class="fas fa-file-alt"></i></span>
-            <span>Documents</span>
+            <span>Tab 3</span>
           </a>
         </li>
       </ul>
@@ -440,25 +440,25 @@ export default (editor, opts = {}) => {
         <li class="is-active">
           <a>
             <span class="icon is-small"><i class="fas fa-image"></i></span>
-            <span>Pictures</span>
+            <span>Tab 0</span>
           </a>
         </li>
         <li>
           <a>
             <span class="icon is-small"><i class="fas fa-music"></i></span>
-            <span>Music</span>
+            <span>Tab 1</span>
           </a>
         </li>
         <li>
           <a>
             <span class="icon is-small"><i class="fas fa-film"></i></span>
-            <span>Videos</span>
+            <span>Tab 2</span>
           </a>
         </li>
         <li>
           <a>
             <span class="icon is-small"><i class="fas fa-file-alt"></i></span>
-            <span>Documents</span>
+            <span>Tab 3</span>
           </a>
         </li>
       </ul>
@@ -496,10 +496,10 @@ export default (editor, opts = {}) => {
       </div>
       <p class="panel-tabs">
         <a class="is-active">All</a>
-        <a>tab0</a>
-        <a>tab1</a>
-        <a>tab2</a>
-        <a>tab3</a>
+        <a>tab 0</a>
+        <a>tab 1</a>
+        <a>tab 2</a>
+        <a>tab 3</a>
       </p>
       <a class="panel-block is-active">
         <span class="panel-icon">
@@ -539,11 +539,11 @@ export default (editor, opts = {}) => {
       </a>
       <label class="panel-block">
         <input type="checkbox">
-        remember me
+        option
       </label>
       <div class="panel-block">
         <button class="button is-link is-outlined is-fullwidth">
-          Reset all filters
+          button
         </button>
       </div>
     </nav>`,
@@ -576,10 +576,10 @@ export default (editor, opts = {}) => {
       </div>
       <p class="panel-tabs">
         <a class="is-active">All</a>
-        <a>tab0</a>
-        <a>tab1</a>
-        <a>tab2</a>
-        <a>tab3</a>
+        <a>tab 0</a>
+        <a>tab 1</a>
+        <a>tab 2</a>
+        <a>tab 3</a>
       </p>
       <a class="panel-block is-active">
         <span class="panel-icon">
@@ -619,11 +619,11 @@ export default (editor, opts = {}) => {
       </a>
       <label class="panel-block">
         <input type="checkbox">
-        remember me
+        option
       </label>
       <div class="panel-block">
         <button class="button is-link is-outlined is-fullwidth">
-          Reset all filters
+          button
         </button>
       </div>
     </nav>`,
@@ -648,7 +648,7 @@ export default (editor, opts = {}) => {
     content: `
     <nav class="pagination is-centered is-rounded is-small" role="navigation" aria-label="pagination">
       <a class="pagination-previous">Previous</a>
-      <a class="pagination-next">Next page</a>
+      <a class="pagination-next">Next</a>
       <ul class="pagination-list">
         <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
         <li><span class="pagination-ellipsis">&hellip;</span></li>
@@ -676,7 +676,7 @@ export default (editor, opts = {}) => {
     content: `
     <nav class="pagination is-small" role="navigation" aria-label="pagination">
       <a class="pagination-previous">Previous</a>
-      <a class="pagination-next">Next page</a>
+      <a class="pagination-next">Next</a>
       <ul class="pagination-list">
         <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
         <li><span class="pagination-ellipsis">&hellip;</span></li>
@@ -1196,27 +1196,23 @@ export default (editor, opts = {}) => {
     <div class="card">
       <div class="card-image">
         <figure class="image is-4by3">
-          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+          <img src="https://source.unsplash.com/999x666/?kitten" alt="">
         </figure>
       </div>
       <div class="card-content">
         <div class="media">
           <div class="media-left">
             <figure class="image is-48x48">
-              <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+              <img src="https://source.unsplash.com/99x99/?kitten" alt="">
             </figure>
           </div>
           <div class="media-content">
-            <p class="title is-4">John Smith</p>
-            <p class="subtitle is-6">@johnsmith</p>
+            <p class="title is-4">Title</p>
+            <p class="subtitle is-6">Subtitle</p>
           </div>
         </div>
         <div class="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-          <a href="#">#css</a> <a href="#">#responsive</a>
-          <br>
-          <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+          text
         </div>
       </div>
     </div>`,
@@ -1238,7 +1234,7 @@ export default (editor, opts = {}) => {
     <div class="card">
       <header class="card-header">
         <p class="card-header-title">
-          Component
+          Title
         </p>
         <a href="#" class="card-header-icon" aria-label="more options">
           <span class="icon">
@@ -1248,16 +1244,13 @@ export default (editor, opts = {}) => {
       </header>
       <div class="card-content">
         <div class="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-          <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
-          <br>
-          <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+          text
         </div>
       </div>
       <footer class="card-footer">
-        <a href="#" class="card-footer-item">Save</a>
-        <a href="#" class="card-footer-item">Edit</a>
-        <a href="#" class="card-footer-item">Delete</a>
+        <a href="#" class="card-footer-item">button</a>
+        <a href="#" class="card-footer-item">button</a>
+        <a href="#" class="card-footer-item">button</a>
       </footer>
     </div>`,
     category: 'Bulma➡️Cards',
@@ -1286,7 +1279,7 @@ export default (editor, opts = {}) => {
             <span class="icon is-small">
               <i class="fas fa-home" aria-hidden="true"></i>
             </span>
-            <span>Bulma</span>
+            <span>Breadcrumb 0</span>
           </a>
         </li>
         <li>
@@ -1294,7 +1287,7 @@ export default (editor, opts = {}) => {
             <span class="icon is-small">
               <i class="fas fa-book" aria-hidden="true"></i>
             </span>
-            <span>Documentation</span>
+            <span>Breadcrumb 1</span>
           </a>
         </li>
         <li>
@@ -1302,7 +1295,7 @@ export default (editor, opts = {}) => {
             <span class="icon is-small">
               <i class="fas fa-puzzle-piece" aria-hidden="true"></i>
             </span>
-            <span>Components</span>
+            <span>Breadcrumb 2</span>
           </a>
         </li>
         <li class="is-active">
@@ -1310,7 +1303,7 @@ export default (editor, opts = {}) => {
             <span class="icon is-small">
               <i class="fas fa-thumbs-up" aria-hidden="true"></i>
             </span>
-            <span>Breadcrumb</span>
+            <span>Breadcrumb 3</span>
           </a>
         </li>
       </ul>
@@ -1338,7 +1331,7 @@ export default (editor, opts = {}) => {
             <span class="icon is-small">
               <i class="fas fa-home" aria-hidden="true"></i>
             </span>
-            <span>Bulma</span>
+            <span>Breadcrumb 0</span>
           </a>
         </li>
         <li>
@@ -1346,7 +1339,7 @@ export default (editor, opts = {}) => {
             <span class="icon is-small">
               <i class="fas fa-book" aria-hidden="true"></i>
             </span>
-            <span>Documentation</span>
+            <span>Breadcrumb 1</span>
           </a>
         </li>
         <li>
@@ -1354,7 +1347,7 @@ export default (editor, opts = {}) => {
             <span class="icon is-small">
               <i class="fas fa-puzzle-piece" aria-hidden="true"></i>
             </span>
-            <span>Components</span>
+            <span>Breadcrumb 2</span>
           </a>
         </li>
         <li class="is-active">
@@ -1362,7 +1355,7 @@ export default (editor, opts = {}) => {
             <span class="icon is-small">
               <i class="fas fa-thumbs-up" aria-hidden="true"></i>
             </span>
-            <span>Breadcrumb</span>
+            <span>Breadcrumb 3</span>
           </a>
         </li>
       </ul>
@@ -1389,22 +1382,22 @@ export default (editor, opts = {}) => {
     <div class="field is-grouped is-grouped-multiline">
       <div class="control">
         <div class="tags has-addons">
-          <span class="tag is-dark">npm</span>
+          <span class="tag is-dark">text</span>
           <span class="tag is-info"></span>
           <button class="delete is-small"></button>
         </div>
       </div>
       <div class="control">
         <div class="tags has-addons">
-          <span class="tag is-dark">build</span>
-          <span class="tag is-success">passing</span>
+          <span class="tag is-dark">text</span>
+          <span class="tag is-success">text</span>
           <button class="delete is-small"></button>
         </div>
       </div>
       <div class="control">
         <div class="tags has-addons">
-          <span class="tag is-dark">chat</span>
-          <span class="tag is-primary">on gitter</span>
+          <span class="tag is-dark">text</span>
+          <span class="tag is-primary">text</span>
           <button class="delete is-small"></button>
         </div>
       </div>
@@ -1426,11 +1419,11 @@ export default (editor, opts = {}) => {
     content: `
     <div class="field is-grouped is-grouped-multiline">
       <span class="tag is-rounded">
-      Rounded
+      text
       <button class="delete is-small"></button>
       </span>
       <span class="tag is-rounded">
-      Rounded
+      text
       <button class="delete is-small"></button>
       </span>
     </div>`,
@@ -1457,61 +1450,28 @@ export default (editor, opts = {}) => {
     <table class="table is-bordered is-striped is-narrow is-hoverable">
       <thead>
         <tr>
-          <th><abbr title="Position">Pos</abbr></th>
-          <th>Team</th>
-          <th><abbr title="Played">Pld</abbr></th>
-          <th><abbr title="Won">W</abbr></th>
-          <th><abbr title="Drawn">D</abbr></th>
-          <th><abbr title="Lost">L</abbr></th>
-          <th><abbr title="Goals for">GF</abbr></th>
-          <th><abbr title="Goals against">GA</abbr></th>
-          <th><abbr title="Goal difference">GD</abbr></th>
-          <th><abbr title="Points">Pts</abbr></th>
-          <th>Qualification or relegation</th>
+          <th>Column title</th>
+          <th>Column title</th>
+          <th>Column title</th>
         </tr>
       </thead>
       <tfoot>
         <tr>
-          <th><abbr title="Position">Pos</abbr></th>
-          <th>Team</th>
-          <th><abbr title="Played">Pld</abbr></th>
-          <th><abbr title="Won">W</abbr></th>
-          <th><abbr title="Drawn">D</abbr></th>
-          <th><abbr title="Lost">L</abbr></th>
-          <th><abbr title="Goals for">GF</abbr></th>
-          <th><abbr title="Goals against">GA</abbr></th>
-          <th><abbr title="Goal difference">GD</abbr></th>
-          <th><abbr title="Points">Pts</abbr></th>
-          <th>Qualification or relegation</th>
+          <th>Column title</th>
+          <th>Column title</th>
+          <th>Column title</th>
         </tr>
       </tfoot>
       <tbody>
         <tr>
-          <th>1</th>
-          <td><a href="https://en.wikipedia.org/wiki/Leicester_City_F.C." title="Leicester City F.C.">Leicester City</a> <strong>(C)</strong>
-          </td>
-          <td>38</td>
-          <td>23</td>
-          <td>12</td>
-          <td>3</td>
-          <td>68</td>
-          <td>36</td>
-          <td>+32</td>
-          <td>81</td>
-          <td>Qualification for the <a href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage" title="2016–17 UEFA Champions League">Champions League group stage</a></td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
         </tr>
         <tr>
-          <th>2</th>
-          <td><a href="https://en.wikipedia.org/wiki/Arsenal_F.C." title="Arsenal F.C.">Arsenal</a></td>
-          <td>38</td>
-          <td>20</td>
-          <td>11</td>
-          <td>7</td>
-          <td>65</td>
-          <td>36</td>
-          <td>+29</td>
-          <td>71</td>
-          <td>Qualification for the <a href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage" title="2016–17 UEFA Champions League">Champions League group stage</a></td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
         </tr>
       </tbody>
     </table>
@@ -1534,61 +1494,28 @@ export default (editor, opts = {}) => {
     <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
       <thead>
         <tr>
-          <th><abbr title="Position">Pos</abbr></th>
-          <th>Team</th>
-          <th><abbr title="Played">Pld</abbr></th>
-          <th><abbr title="Won">W</abbr></th>
-          <th><abbr title="Drawn">D</abbr></th>
-          <th><abbr title="Lost">L</abbr></th>
-          <th><abbr title="Goals for">GF</abbr></th>
-          <th><abbr title="Goals against">GA</abbr></th>
-          <th><abbr title="Goal difference">GD</abbr></th>
-          <th><abbr title="Points">Pts</abbr></th>
-          <th>Qualification or relegation</th>
+          <th>Column title</th>
+          <th>Column title</th>
+          <th>Column title</th>
         </tr>
       </thead>
       <tfoot>
         <tr>
-          <th><abbr title="Position">Pos</abbr></th>
-          <th>Team</th>
-          <th><abbr title="Played">Pld</abbr></th>
-          <th><abbr title="Won">W</abbr></th>
-          <th><abbr title="Drawn">D</abbr></th>
-          <th><abbr title="Lost">L</abbr></th>
-          <th><abbr title="Goals for">GF</abbr></th>
-          <th><abbr title="Goals against">GA</abbr></th>
-          <th><abbr title="Goal difference">GD</abbr></th>
-          <th><abbr title="Points">Pts</abbr></th>
-          <th>Qualification or relegation</th>
+          <th>Column title</th>
+          <th>Column title</th>
+          <th>Column title</th>
         </tr>
       </tfoot>
       <tbody>
         <tr>
-          <th>1</th>
-          <td><a href="https://en.wikipedia.org/wiki/Leicester_City_F.C." title="Leicester City F.C.">Leicester City</a> <strong>(C)</strong>
-          </td>
-          <td>38</td>
-          <td>23</td>
-          <td>12</td>
-          <td>3</td>
-          <td>68</td>
-          <td>36</td>
-          <td>+32</td>
-          <td>81</td>
-          <td>Qualification for the <a href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage" title="2016–17 UEFA Champions League">Champions League group stage</a></td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
         </tr>
         <tr>
-          <th>2</th>
-          <td><a href="https://en.wikipedia.org/wiki/Arsenal_F.C." title="Arsenal F.C.">Arsenal</a></td>
-          <td>38</td>
-          <td>20</td>
-          <td>11</td>
-          <td>7</td>
-          <td>65</td>
-          <td>36</td>
-          <td>+29</td>
-          <td>71</td>
-          <td>Qualification for the <a href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage" title="2016–17 UEFA Champions League">Champions League group stage</a></td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
         </tr>
       </tbody>
     </table>`,
@@ -1695,7 +1622,7 @@ export default (editor, opts = {}) => {
       <article class="media">
         <div class="media-left">
           <figure class="image is-64x64">
-            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+            <img src="https://source.unsplash.com/128x128/?kitten" alt="">
           </figure>
         </div>
       </article>
@@ -1716,15 +1643,9 @@ export default (editor, opts = {}) => {
     label:    'Box Text',
     content: `
     <div class="box">
-      <article class="media">
-        <div class="content">
-          <p>
-            <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-            <br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-          </p>
-        </div>
-      </article>
+      <div class="content">
+        text
+      </div>
     </div>`,
     category: 'Bulma➡️Boxes',
     media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
@@ -1748,17 +1669,17 @@ export default (editor, opts = {}) => {
     <div class="field is-grouped">
       <p class="control">
         <button class="button is-link is-light is-small is-rounded">
-          Save changes
+          button
         </button>
       </p>
       <p class="control">
         <button class="button is-light is-small is-rounded">
-          Cancel
+          button
         </button>
       </p>
       <p class="control">
         <button class="button is-danger is-light is-small is-rounded">
-          Delete post
+          button
         </button>
       </p>
     </div>`,
