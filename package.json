@@ -1,11 +1,11 @@
 {
-  "name": "grapespectre",
-  "version": "1.0.34",
-  "description": "grapespectre",
-  "main": "dist/grapespectre.min.js",
+  "name": "grabulma",
+  "version": "1.0.36",
+  "description": "grabulma",
+  "main": "dist/grabulma.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/juancarlospaco/grapespectre.git"
+    "url": "https://github.com/juancarlospaco/grabulma.git"
   },
   "scripts": {
     "start": "grapesjs-cli serve",

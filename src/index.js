@@ -1,4 +1,4 @@
-import loadBlocks from './grapespectre';
+import loadBlocks from './grabulma';
 
 export default (editor, options = {}) => {
 
