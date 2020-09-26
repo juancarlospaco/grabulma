@@ -708,8 +708,8 @@ export default (editor, opts = {}) => {
     content: `
     <nav class="navbar is-primary is-transparent is-fixed-top is-spaced">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+        <a class="navbar-item" href="#">
+          <img src="https://source.unsplash.com/112x28/?kitten" alt="" width="112" height="28">
         </a>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
@@ -720,46 +720,45 @@ export default (editor, opts = {}) => {
 
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="https://bulma.io/">
+          <a class="navbar-item" href="#">
             Home
           </a>
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
-              Docs
+            <a class="navbar-link" href="#">
+              text
             </a>
             <hr class="navbar-divider">
             <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
-                Overview
+              <a class="navbar-item" href="#">
+                text
               </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">
-                Modifiers
+              <a class="navbar-item" href="#">
+                text
               </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-                Columns
+              <a class="navbar-item" href="#">
+                text
               </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-                Layout
+              <a class="navbar-item" href="#">
+                text
               </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
-                Form
+              <a class="navbar-item" href="#">
+                text
               </a>
               <hr class="navbar-divider">
-              <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
-                Elements
+              <a class="navbar-item" href="#">
+                text
               </a>
-              <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-                Components
+              <a class="navbar-item is-active" href="#">
+                text
               </a>
             </div>
           </div>
         </div>
-
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="field is-grouped">
               <p class="control">
-                <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
+                <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="#" target="_blank" href="#">
                   <span class="icon">
                     <i class="fab fa-twitter"></i>
                   </span>
@@ -769,7 +768,7 @@ export default (editor, opts = {}) => {
                 </a>
               </p>
               <p class="control">
-                <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.9.0/bulma-0.9.0.zip">
+                <a class="button is-primary" href="#">
                   <span class="icon">
                     <i class="fas fa-download"></i>
                   </span>
@@ -798,8 +797,8 @@ export default (editor, opts = {}) => {
     content: `
     <nav class="navbar is-primary is-fixed-top">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+        <a class="navbar-item" href="#">
+          <img src="https://source.unsplash.com/112x28/?kitten" alt="" width="112" height="28">
         </a>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
@@ -807,49 +806,47 @@ export default (editor, opts = {}) => {
           <span></span>
         </div>
       </div>
-
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="https://bulma.io/">
-            Home
+          <a class="navbar-item" href="#">
+            text
           </a>
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
-              Docs
+            <a class="navbar-link" href="#">
+              text
             </a>
             <hr class="navbar-divider">
             <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
-                Overview
+              <a class="navbar-item" href="#">
+                text
               </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">
-                Modifiers
+              <a class="navbar-item" href="#">
+                text
               </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-                Columns
+              <a class="navbar-item" href="#">
+                text
               </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-                Layout
+              <a class="navbar-item" href="#">
+                text
               </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
-                Form
+              <a class="navbar-item" href="#">
+                text
               </a>
               <hr class="navbar-divider">
-              <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
-                Elements
+              <a class="navbar-item" href="#">
+                text
               </a>
-              <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-                Components
+              <a class="navbar-item is-active" href="#">
+                text
               </a>
             </div>
           </div>
         </div>
-
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="field is-grouped">
               <p class="control">
-                <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
+                <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="#" target="_blank" href="#">
                   <span class="icon">
                     <i class="fab fa-twitter"></i>
                   </span>
@@ -859,7 +856,7 @@ export default (editor, opts = {}) => {
                 </a>
               </p>
               <p class="control">
-                <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.9.0/bulma-0.9.0.zip">
+                <a class="button is-primary" href="#">
                   <span class="icon">
                     <i class="fas fa-download"></i>
                   </span>
@@ -906,7 +903,7 @@ export default (editor, opts = {}) => {
         </footer>
       </div>
     </div>`,
-    category: 'Bulma➡️Tabs',
+    category: 'Bulma➡️Modals',
     media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
     render:   ({ el }) => {
       const a = document.createElement('a');
@@ -933,7 +930,7 @@ export default (editor, opts = {}) => {
         </section>
       </div>
     </div>`,
-    category: 'Bulma➡️Tabs',
+    category: 'Bulma➡️Modals',
     media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
     render:   ({ el }) => {
       const a = document.createElement('a');
@@ -998,7 +995,7 @@ export default (editor, opts = {}) => {
   });
 
 
-  /* Bulma Messages *********************************************************/
+  /* Bulma Menus *********************************************************/
 
 
   plugin('bulma_menus_big', {
@@ -1006,36 +1003,36 @@ export default (editor, opts = {}) => {
     content: `
     <aside class="menu">
       <p class="menu-label">
-        General
+        text
       </p>
       <ul class="menu-list">
-        <li><a>Dashboard</a></li>
-        <li><a>Customers</a></li>
+        <li><a>text</a></li>
+        <li><a>text</a></li>
       </ul>
       <p class="menu-label">
-        Administration
+        text
       </p>
       <ul class="menu-list">
-        <li><a>Team Settings</a></li>
+        <li><a>text</a></li>
         <li>
-          <a class="is-active">Manage Your Team</a>
+          <a class="is-active">text</a>
           <ul>
-            <li><a>Members</a></li>
-            <li><a>Plugins</a></li>
-            <li><a>Add a member</a></li>
+            <li><a>text</a></li>
+            <li><a>text</a></li>
+            <li><a>text</a></li>
           </ul>
         </li>
-        <li><a>Invitations</a></li>
-        <li><a>Cloud Storage Environment Settings</a></li>
-        <li><a>Authentication</a></li>
+        <li><a>text</a></li>
+        <li><a>text</a></li>
+        <li><a>text</a></li>
       </ul>
       <p class="menu-label">
-        Transactions
+        text
       </p>
       <ul class="menu-list">
-        <li><a>Payments</a></li>
-        <li><a>Transfers</a></li>
-        <li><a>Balance</a></li>
+        <li><a>text</a></li>
+        <li><a>text</a></li>
+        <li><a>text</a></li>
       </ul>
     </aside>`,
     category: 'Bulma➡️Menus',
@@ -1055,29 +1052,29 @@ export default (editor, opts = {}) => {
     content: `
     <aside class="menu">
       <p class="menu-label">
-        General
+        text
       </p>
       <ul class="menu-list">
-        <li><a>Dashboard</a></li>
+        <li><a>text</a></li>
       </ul>
       <p class="menu-label">
-        Administration
+        text
       </p>
       <ul class="menu-list">
-        <li><a>Team Settings</a></li>
+        <li><a>text</a></li>
         <li>
-          <a class="is-active">Manage Your Team</a>
+          <a class="is-active">text</a>
           <ul>
-            <li><a>Members</a></li>
+            <li><a>text</a></li>
           </ul>
         </li>
-        <li><a>Invitations</a></li>
+        <li><a>text</a></li>
       </ul>
       <p class="menu-label">
-        Transactions
+        text
       </p>
       <ul class="menu-list">
-        <li><a>Payments</a></li>
+        <li><a>text</a></li>
       </ul>
     </aside>`,
     category: 'Bulma➡️Menus',
@@ -1111,20 +1108,20 @@ export default (editor, opts = {}) => {
       <div class="dropdown-menu" id="dropdown-menu" role="menu">
         <div class="dropdown-content">
           <a href="#" class="dropdown-item">
-            Dropdown item
+            text
           </a>
           <a class="dropdown-item">
-            Other dropdown item
+            text
           </a>
           <a href="#" class="dropdown-item is-active">
-            Active dropdown item
+            text
           </a>
           <a href="#" class="dropdown-item">
-            Other dropdown item
+            text
           </a>
           <hr class="dropdown-divider">
           <a href="#" class="dropdown-item">
-            With a divider
+            text
           </a>
         </div>
       </div>
@@ -1156,20 +1153,20 @@ export default (editor, opts = {}) => {
       <div class="dropdown-menu" id="dropdown-menu" role="menu">
         <div class="dropdown-content">
           <a href="#" class="dropdown-item">
-            Dropdown item
+            text
           </a>
           <a class="dropdown-item">
-            Other dropdown item
+            text
           </a>
           <a href="#" class="dropdown-item is-active">
-            Active dropdown item
+            text
           </a>
           <a href="#" class="dropdown-item">
-            Other dropdown item
+            text
           </a>
           <hr class="dropdown-divider">
           <a href="#" class="dropdown-item">
-            With a divider
+            text
           </a>
         </div>
       </div>
@@ -1532,15 +1529,15 @@ export default (editor, opts = {}) => {
   });
 
 
-  /* Bulma Progressbar *********************************************************/
+  /* Bulma Progress *********************************************************/
 
 
-  plugin('bulma_progressbar_big', {
-    label:    'Progressbar Big',
+  plugin('bulma_progress_big', {
+    label:    'Progress Big',
     content: `
     <progress class="progress is-large is-primary" max="100">15%</progress>
     `,
-    category: 'Bulma➡️Progressbars',
+    category: 'Bulma➡️Progress',
     media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
     render:   ({ el }) => {
       const a = document.createElement('a');
@@ -1552,12 +1549,12 @@ export default (editor, opts = {}) => {
     },
   });
 
-  plugin('bulma_progressbar_small', {
-    label:    'Progressbar Small',
+  plugin('bulma_progress_small', {
+    label:    'Progress Small',
     content: `
     <progress class="progress is-small is-primary" max="100">15%</progress>
     `,
-    category: 'Bulma➡️Progressbars',
+    category: 'Bulma➡️Progress',
     media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
     render:   ({ el }) => {
       const a = document.createElement('a');
