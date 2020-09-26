@@ -1797,6 +1797,52 @@ export default (editor, opts = {}) => {
     },
   });
 
+  plugin('bulma_buttons_big', {
+    label:    'Button Big Light Rounded',
+    content: `
+    <button class="button is-primary is-rounded is-light is-large is-fullwidth">
+      <span class="icon is-small">
+          <i class="fas fa-check"></i>
+      </span>
+      <span>
+        button
+      </span>
+    </button>`,
+    category: 'Bulma➡️Buttons',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/elements/button';
+      el.appendChild(a);
+    },
+  });
+
+  plugin('bulma_buttons_small', {
+    label:    'Button Small Light Rounded',
+    content: `
+    <button class="button is-primary is-rounded is-light is-small">
+      <span class="icon is-small">
+          <i class="fas fa-check"></i>
+      </span>
+      <span>
+        button
+      </span>
+    </button>`,
+    category: 'Bulma➡️Buttons',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">',
+    render:   ({ el }) => {
+      const a = document.createElement('a');
+      a.target = '_blank';
+      a.innerHTML = '?';
+      a.title = 'Docs';
+      a.href = 'https://bulma.io/documentation/elements/button';
+      el.appendChild(a);
+    },
+  });
+
 
   /* Bulma Files *********************************************************/
 
