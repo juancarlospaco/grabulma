@@ -709,7 +709,7 @@ export default (editor, opts = {}) => {
     <nav class="navbar is-primary is-transparent is-fixed-top is-spaced">
       <div class="navbar-brand">
         <a class="navbar-item" href="#">
-          <img src="https://source.unsplash.com/112x28/?kitten" alt="" width="112" height="28">
+          <img src="https://source.unsplash.com/112x28/?kitten" alt="" width="112" height="28" loading="lazy">
         </a>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
@@ -798,7 +798,7 @@ export default (editor, opts = {}) => {
     <nav class="navbar is-primary is-fixed-top">
       <div class="navbar-brand">
         <a class="navbar-item" href="#">
-          <img src="https://source.unsplash.com/112x28/?kitten" alt="" width="112" height="28">
+          <img src="https://source.unsplash.com/112x28/?kitten" alt="" width="112" height="28" loading="lazy">
         </a>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
@@ -1193,14 +1193,14 @@ export default (editor, opts = {}) => {
     <div class="card">
       <div class="card-image">
         <figure class="image is-4by3">
-          <img src="https://source.unsplash.com/999x666/?kitten" alt="">
+          <img src="https://source.unsplash.com/999x666/?kitten" alt="" loading="lazy">
         </figure>
       </div>
       <div class="card-content">
         <div class="media">
           <div class="media-left">
             <figure class="image is-48x48">
-              <img src="https://source.unsplash.com/99x99/?kitten" alt="">
+              <img src="https://source.unsplash.com/99x99/?kitten" alt="" loading="lazy">
             </figure>
           </div>
           <div class="media-content">
@@ -1619,7 +1619,7 @@ export default (editor, opts = {}) => {
       <article class="media">
         <div class="media-left">
           <figure class="image is-64x64">
-            <img src="https://source.unsplash.com/128x128/?kitten" alt="">
+            <img src="https://source.unsplash.com/128x128/?kitten" alt="" loading="lazy">
           </figure>
         </div>
       </article>
@@ -1880,7 +1880,7 @@ export default (editor, opts = {}) => {
               <p class="title">Middle tile</p>
               <p class="subtitle">With an image</p>
               <figure class="image is-4by3">
-                <img src="https://source.unsplash.com/640x480/?kitten">
+                <img src="https://source.unsplash.com/640x480/?kitten" alt="" loading="lazy">
               </figure>
             </article>
           </div>
@@ -2125,7 +2125,7 @@ export default (editor, opts = {}) => {
           <div class="container">
             <div class="navbar-brand">
               <a class="navbar-item">
-                <img src="https://bulma.io/images/bulma-type-white.png" alt="">
+                <img src="https://bulma.io/images/bulma-type-white.png" alt="" loading="lazy">
               </a>
               <span class="navbar-burger burger" data-target="navbarMenuHeroA">
                 <span></span>
@@ -2208,7 +2208,7 @@ export default (editor, opts = {}) => {
     <article class="media">
       <figure class="media-left">
         <p class="image is-64x64">
-          <img src="https://source.unsplash.com/128x128/?kitten">
+          <img src="https://source.unsplash.com/128x128/?kitten" alt="" loading="lazy">
         </p>
       </figure>
       <div class="media-content">
