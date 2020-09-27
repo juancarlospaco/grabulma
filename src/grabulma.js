@@ -2395,4 +2395,262 @@ export default (editor, opts = {}) => {
   });
 
 
+  /* Bulma Templates *********************************************************/
+
+
+  plugin('bulma_templates_hero', {
+    label:    'Hero 4 links',
+    content: `
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title is-spaced">Title</h1>
+          <h2 class="subtitle">Subtitle</h2>
+          <div class="buttons is-centered">
+            <a class="control button is-primary" href="#">link</a>
+            <a class="control button is-light" href="#">link</a>
+            <a class="control button is-primary" href="#">link</a>
+            <a class="control button is-light" href="#">link</a>
+          </div>
+        </div>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Templates',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">'
+  });
+
+  plugin('bulma_templates_section', {
+    label:    'Section 4 paragraphs',
+    content: `
+    <section class="section">
+      <div class="container py-4">
+        <h2 class="title has-text-centered mb-6">title</h2>
+        <div class="columns">
+          <div class="column is-3">
+            <h4 class="title is-spaced is-4">title</h4>
+            <p class="subtitle is-6">subtitle</p>
+            <a href="#">link</a>
+          </div>
+          <div class="column is-3">
+            <h4 class="title is-spaced is-4">title</h4>
+            <p class="subtitle is-6">subtitle</p>
+            <a href="#">link</a>
+          </div>
+          <div class="column is-3">
+            <h4 class="title is-spaced is-4">title</h4>
+            <p class="subtitle is-6">subtitle</p>
+            <a href="#">link</a>
+          </div>
+          <div class="column is-3">
+            <h4 class="title is-spaced is-4">title</h4>
+            <p class="subtitle is-6">subtitle</p>
+            <a href="#">link</a>
+          </div>
+        </div>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Templates',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">'
+  });
+
+  plugin('bulma_templates_team', {
+    label:    'Meet the Team',
+    content: `
+    <section class="section">
+      <div class="container has-text-centered py-4">
+        <h2 class="title">Team</h2>
+        <p class="subtitle mb-6">Meet the Team</p>
+        <div class="columns is-centered is-multiline py-5">
+          <div class="column is-6 is-3-widescreen mb-6">
+            <div class="level">
+              <div class="level-item">
+                <figure class="image is-128x128">
+                  <img class="is-rounded" src="https://source.unsplash.com/128x128/?kitten" alt="" width="128" height="128" loading="lazy">
+                </figure>
+              </div>
+            </div>
+            <h5 class="title is-5">Fatto Catto</h5>
+            <p class="subtitle is-6">CEO</p>
+          </div>
+          <div class="column is-6 is-3-widescreen mb-6">
+            <div class="level">
+              <div class="level-item"><figure class="image is-128x128"><img class="is-rounded" src="https://source.unsplash.com/128x128/?kitten" alt="" width="128" height="128" loading="lazy"></figure></div>
+            </div>
+            <h5 class="title is-5">Grumpy Cat</h5>
+            <p class="subtitle is-6">COO</p>
+          </div>
+          <div class="column is-6 is-3-widescreen mb-6">
+            <div class="level">
+              <div class="level-item"><figure class="image is-128x128"><img class="is-rounded" src="https://source.unsplash.com/128x128/?kitten" alt="" width="128" height="128" loading="lazy"></figure></div>
+            </div>
+            <h5 class="title is-5">Catovich</h5>
+            <p class="subtitle is-6">CFO</p>
+          </div>
+          <div class="column is-6 is-3-widescreen mb-6">
+            <div class="level">
+              <div class="level-item"><figure class="image is-128x128"><img class="is-rounded" src="https://source.unsplash.com/128x128/?kitten" alt="" width="128" height="128" loading="lazy"></figure></div>
+            </div>
+            <h5 class="title is-5">Cat Erine</h5>
+            <p class="subtitle is-6">Marketing</p>
+          </div>
+          <div class="column is-6 is-3-widescreen mb-6">
+            <div class="level">
+              <div class="level-item"><figure class="image is-128x128"><img class="is-rounded" src="https://source.unsplash.com/128x128/?kitten" alt="" width="128" height="128" loading="lazy"></figure></div>
+            </div>
+            <h5 class="title is-5">Fluffly Cat</h5>
+            <p class="subtitle is-6">Chief</p>
+          </div>
+          <div class="column is-6 is-3-widescreen mb-6">
+            <div class="level">
+              <div class="level-item"><figure class="image is-128x128"><img class="is-rounded" src="https://source.unsplash.com/128x128/?kitten" alt="" width="128" height="128" loading="lazy"></figure></div>
+            </div>
+            <h5 class="title is-5">Puss in Boots</h5>
+            <p class="subtitle is-6">Programmer</p>
+          </div>
+          <div class="column is-6 is-3-widescreen mb-6">
+            <div class="level">
+              <div class="level-item"><figure class="image is-128x128"><img class="is-rounded" src="https://source.unsplash.com/128x128/?kitten" alt="" width="128" height="128" loading="lazy"></figure></div>
+            </div>
+            <h5 class="title is-5">Nyan Cat</h5>
+            <p class="subtitle is-6">Investor</p>
+          </div>
+        </div>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Templates',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">'
+  });
+
+  plugin('bulma_templates_pricing', {
+    label:    'Pricing Plans',
+    content: `
+    <section class="section">
+      <div class="container has-text-centered py-4">
+        <h2 class="title">Pricing</h2>
+        <hr class="my-6">
+        <div class="columns">
+          <div class="column">
+            <h3 class="title is-4">Small</h3>
+            <h4 class="title is-spaced is-5">$10 <small>Per user / monthly</small></h4>
+            <p class="subtitle">Manage everything yourself.</p>
+            <hr>
+            <ul>
+              <li>9GB storage</li>
+              <li>3 Applications</li>
+              <li>9 users max</li>
+              <li>Unlimited Data</li>
+            </ul>
+            <hr>
+            <div class="buttons is-centered">
+              <button class="button is-primary" type="button">Contact Sales</button>
+            </div>
+          </div>
+          <div class="column">
+            <h3 class="title is-4">Medium</h3>
+            <h4 class="title is-spaced is-5">$50 <small>Per user / monthly</small></h4>
+            <p class="subtitle">We build what you need.</p>
+            <hr>
+            <ul>
+              <li>999GB storage</li>
+              <li>9 Applications</li>
+              <li>99 users max</li>
+              <li>Unlimited Data</li>
+            </ul>
+            <hr>
+            <button class="button is-primary is-outlined" type="button">Contact Sales</button>
+          </div>
+          <div class="column">
+            <h3 class="title is-4">Enterprise</h3>
+            <h4 class="title is-spaced is-5">$100 <small>Per user / monthly</small></h4>
+            <p class="subtitle">We do everything for you.</p>
+            <hr>
+            <ul>
+              <li>Unlimited everything</li>
+              <li>Unlimited everything</li>
+              <li>Unlimited everything</li>
+              <li>Unlimited everything</li>
+            </ul>
+            <hr>
+            <button class="button is-primary is-outlined" type="button">Contact Sales</button>
+          </div>
+        </div>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Templates',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">'
+  });
+
+  plugin('bulma_templates_faq', {
+    label:    'FAQ',
+    content: `
+    <section class="section">
+      <div class="container py-4">
+        <h2 class="title has-text-centered mb-6">Frequently Asked Questions</h2>
+        <div class="mb-6">
+          <div class="card block">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left"><figure class="image is-64x64"><img class="is-rounded" src="https://source.unsplash.com/64x64/?kitten" alt=""></figure></div>
+                <div class="media-content">
+                  <h3 class="title is-4">Whats the meaning of Life?</h3>
+                  <p>42.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card block">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left"><figure class="image is-64x64"><img class="is-rounded" src="https://source.unsplash.com/64x64/?kitten" alt=""></figure></div>
+                <div class="media-content">
+                  <h3 class="title is-4">Is Schrödinger's cat alive?</h3>
+                  <p>Maybe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons is-centered"><a class="button is-primary" href="#">Learn more</a></div>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Templates',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">'
+  });
+
+  plugin('bulma_templates_contact', {
+    label:    'Cantact form',
+    content: `
+    <section class="section">
+      <div class="container py-4">
+        <h2 class="title has-text-centered mb-6">Contact the Pied Piper team</h2>
+        <div class="columns">
+          <div class="column is-6"><img src="https://source.unsplash.com/128x128/?kitten" alt=""></div>
+          <div class="column is-6">
+            <form>
+              <div class="field">
+                <div class="control">
+                  <input class="input" type="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="field">
+                <div class="select is-fullwidth"><select><option disabled="" selected="">Select product</option><option>Product 1</option><option>Product 2</option><option>Product 3</option></select></div>
+              </div>
+              <div class="field">
+                <div class="control"><textarea class="textarea" rows="5" placeholder=""></textarea></div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <button class="button is-primary is-fullwidth" type="submit">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Templates',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">'
+  });
+
+
 }
