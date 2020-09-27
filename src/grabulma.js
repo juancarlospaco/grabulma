@@ -2745,5 +2745,83 @@ export default (editor, opts = {}) => {
     media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">'
   });
 
+  plugin('bulma_templates_how', {
+    label:    'How it Works',
+    content: `
+    <section class="section">
+      <div class="container has-text-centered py-4">
+        <h2 class="title mb-6">How it Works</h2>
+        <div class="columns is-multiline is-centered">
+          <div class="column is-8 is-4-widescreen mb-5">
+            <div class="block"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></div>
+            <h4 class="title"><small class="number">1</small> Harder</h4>
+            <p>text</p>
+          </div>
+          <div class="column is-8 is-4-widescreen mb-5">
+            <div class="block"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></div>
+            <h4 class="title"><small class="number">2</small> Better</h4>
+            <p>text</p>
+          </div>
+          <div class="column is-8 is-4-widescreen mb-5">
+            <div class="block"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></div>
+            <h4 class="title"><small class="number">3</small> Faster</h4>
+            <p>text</p>
+          </div>
+          <div class="column is-8 is-4-widescreen mb-5">
+            <div class="block"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></div>
+            <h4 class="title"><small class="number">4</small> Stronger</h4>
+            <p>text</p>
+          </div>
+        </div>
+        <div class="buttons is-centered"><a class="button is-primary" href="#">Learn more</a></div>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Templates',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">'
+  });
+
+  plugin('bulma_templates_features', {
+    label:    'Features Description',
+    content: `
+    <section class="section">
+      <div class="container has-text-centered py-4">
+        <h2 class="title mb-6">Features</h2>
+        <div class="block"><img class="is-16by9 mb-6" src="https://source.unsplash.com/256x256/?kitten" alt=""></div>
+        <div class="columns has-text-left mb-6">
+          <div class="column is-4">
+            <div class="columns">
+              <div class="column is-2"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></div>
+              <div class="column is-10">
+                <h4 class="title is-spaced is-4">Title</h4>
+                <p class="subtitle is-6">text</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4">
+            <div class="columns">
+              <div class="column is-2"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></div>
+              <div class="column is-10">
+                <h4 class="title is-spaced is-4">Title</h4>
+                <p class="subtitle is-6">text</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4">
+            <div class="columns">
+              <div class="column is-2"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></div>
+              <div class="column is-10">
+                <h4 class="title is-spaced is-4">Title</h4>
+                <p class="subtitle is-6">Text</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons is-centered"><a class="button is-primary" href="#">Read more</a></div>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Templates',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">'
+  });
+
 
 }
