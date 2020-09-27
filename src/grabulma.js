@@ -2618,13 +2618,13 @@ export default (editor, opts = {}) => {
   });
 
   plugin('bulma_templates_contact', {
-    label:    'Cantact form',
+    label:    'Contact form',
     content: `
     <section class="section">
       <div class="container py-4">
-        <h2 class="title has-text-centered mb-6">Contact the Pied Piper team</h2>
+        <h2 class="title has-text-centered mb-6">Contact us</h2>
         <div class="columns">
-          <div class="column is-6"><img src="https://source.unsplash.com/128x128/?kitten" alt=""></div>
+          <div class="column is-6"><img src="https://source.unsplash.com/512x256/?kitten" alt=""></div>
           <div class="column is-6">
             <form>
               <div class="field">
@@ -2636,7 +2636,7 @@ export default (editor, opts = {}) => {
                 <div class="select is-fullwidth"><select><option disabled="" selected="">Select product</option><option>Product 1</option><option>Product 2</option><option>Product 3</option></select></div>
               </div>
               <div class="field">
-                <div class="control"><textarea class="textarea" rows="5" placeholder=""></textarea></div>
+                <div class="control"><textarea class="textarea" rows="5" placeholder="Message..."></textarea></div>
               </div>
               <div class="field">
                 <div class="control">
@@ -2644,6 +2644,99 @@ export default (editor, opts = {}) => {
                 </div>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Templates',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">'
+  });
+
+  plugin('bulma_templates_contact2', {
+    label:    'Contact form 2',
+    content: `
+    <section class="section">
+      <div class="container py-4">
+        <h2 class="title has-text-centered mb-6">Contact us</h2>
+        <div class="columns">
+          <div class="column is-6">
+            <h4 class="title is-spaced is-4">Send a message</h4>
+            <p class="subtitle">We answer your questions</p>
+            <div>
+              <div class="media">
+                <div class="media-left"><figure class="image is-24x24"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></figure></div>
+                <div class="media-content">
+                  <div class="content">
+                    <p>Fake Street 123</p>
+                  </div>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media-left"><figure class="image is-24x24"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></figure></div>
+                <div class="media-content">
+                  <div class="content">
+                    <p>666-666-666</p>
+                  </div>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media-left"><figure class="image is-24x24"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></figure></div>
+                <div class="media-content">
+                  <div class="content">
+                    <p>root@server.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5 is-offset-1">
+            <form>
+              <div class="field">
+                <div class="control">
+                  <input class="input" type="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="field">
+                <div class="select is-fullwidth"><select><option disabled="" selected="">Select product</option><option>Product 1</option><option>Product 2</option><option>Product 3</option></select></div>
+              </div>
+              <div class="field">
+                <div class="control"><textarea class="textarea" rows="5" placeholder="Message..."></textarea></div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <button class="button is-primary is-fullwidth" type="submit">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>`,
+    category: 'Bulma➡️Templates',
+    media:    '<img src="bulma.svg" height=32 width=32 loading="lazy">'
+  });
+
+  plugin('bulma_templates_learn', {
+    label:    'Learn More',
+    content: `
+    <section class="section">
+      <div class="container py-r">
+        <h2 class="title">Meet our product</h2>
+        <div class="columns">
+          <div class="column is-9"><a href="#"><img src="https://source.unsplash.com/256x256/?kitten" alt=""></a></div>
+          <div class="column is-3">
+            <div class="columns is-mobile is-multiline">
+              <div class="column is-4-mobile is-12-tablet"><a href="#"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></a></div>
+              <div class="column is-4-mobile is-12-tablet"><a href="#"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></a></div>
+              <div class="column is-4-mobile is-12-tablet"><a href="#"><img src="https://source.unsplash.com/99x99/?kitten" alt=""></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-half">
+            <h4 class="title is-spaced is-4">Title</h4>
+            <p class="subtitle">subtitle</p>
+            text
           </div>
         </div>
       </div>
